@@ -84,7 +84,7 @@ client.on('guildMemberAdd', member => {
   // Do nothing if the channel wasn't found on this server
   if (!channel) return;
   // Send the message, mentioning the member
-  channel.send(`${member}, to server accounts box`);
+  channel.send(`${member},welcome to server accounts box`);
 });  
 
 client.login(process.env.BOT_TOKEN);
